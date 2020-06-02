@@ -4,7 +4,7 @@
   "description": "(Swagger documentation)[https://app.swaggerhub.com/apis-docs/ahlamalefishat96/api-server/0.1]",
   "main": "index.js",
   "scripts": {
-    "test": "echo --coverage --verbose",
+    "test": "jest --coverage --verbose",
     "start": "node index.js",
     "dev": "nodemon",
     "lint": "eslint '**/*.js'"
