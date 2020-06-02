@@ -6,11 +6,26 @@
 ### Author: Ahlam Alefishat
 
 ### Links and Resources
-# pull request link ()[]
+# Submission pull request link ()[https://github.com/AhlamAlefishat-401-advanced-javascript/api-server/pull/3]
 
 # (Swagger documentation)[https://app.swaggerhub.com/apis-docs/ahlamalefishat96/api-server/0.1]
+#### Modules
+- Node.js 
+- Postman 
+- Swagger 
+
+#### Packages
+express , jest , supertest
+
 #### How to initialize/run your application
 - `nodemon`
 
+#### Test
+-  node index.js 
+- nodemon
+
+
 # Solution:
-UML
+
+![UML:](./assets/api-server.jpg)
+
