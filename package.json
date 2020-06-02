@@ -1,10 +1,13 @@
 {
   "name": "api-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "(Swagger documentation)[https://app.swaggerhub.com/apis-docs/ahlamalefishat96/api-server/0.1]",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo --coverage --verbose",
+    "start": "node index.js",
+    "dev": "nodemon",
+    "lint": "eslint '**/*.js'"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,18 @@
   "bugs": {
     "url": "https://github.com/AhlamAlefishat-401-advanced-javascript/api-server/issues"
   },
-  "homepage": "https://github.com/AhlamAlefishat-401-advanced-javascript/api-server#readme"
+  "homepage": "https://github.com/AhlamAlefishat-401-advanced-javascript/api-server#readme",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "eslint": "^7.1.0",
+    "express": "^4.17.1",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "lint": "^0.7.0"
+  }
 }
