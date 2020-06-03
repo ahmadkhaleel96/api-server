@@ -6,7 +6,7 @@
 ### Author: Ahlam Alefishat
 
 ### Links and Resources
-# Submission pull request link ()[https://github.com/AhlamAlefishat-401-advanced-javascript/api-server/pull/3]
+# Submission pull request link ()[https://github.com/AhlamAlefishat-401-advanced-javascript/api-server/pull/4]
 
 # (Swagger documentation)[https://app.swaggerhub.com/apis-docs/ahlamalefishat96/api-server/0.1]
 #### Modules
@@ -15,7 +15,7 @@
 - Swagger 
 
 #### Packages
-express , jest , supertest
+express , jest , supergoose
 
 #### How to initialize/run your application
 - `nodemon`
@@ -23,6 +23,7 @@ express , jest , supertest
 #### Test
 -  node index.js 
 - nodemon
+- npm test
 
 
 # Solution:
